@@ -1,0 +1,14 @@
+{
+    "name": "Pengeluaran",
+    "alias": "pengeluaran",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Pengeluaran\\Providers\\PengeluaranServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

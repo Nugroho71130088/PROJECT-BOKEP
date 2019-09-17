@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/pengeluaran",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pengeluaran\\Providers\\PengeluaranServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pengeluaran\\": ""
+        }
+    }
+}

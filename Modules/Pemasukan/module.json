@@ -1,0 +1,14 @@
+{
+    "name": "Pemasukan",
+    "alias": "pemasukan",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Pemasukan\\Providers\\PemasukanServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
