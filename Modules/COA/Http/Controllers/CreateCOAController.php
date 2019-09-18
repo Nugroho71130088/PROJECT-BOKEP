@@ -21,5 +21,11 @@ class CreateCOAController extends Controller
 
     public function postCreateCOA(Request $request){
 
+        $new_coa = new COA;
+
+        $new_coa->kode_coa = $request->kode_coa;
+        $new_coa->nama_coa = $request->nama_coa;
+        $new_coa->save();
+        
     }
 }
